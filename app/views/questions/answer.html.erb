@@ -1,0 +1,11 @@
+<div class="dialogue client">
+  <h3> <%= @question %> </h3>
+  <p class="user">- You</p>
+</div>
+
+<div class="dialogue coach">
+  <h3> <%= @answer %> </h3>
+  <p class="user">- Your coach</p>
+</div>
+
+<%= link_to "Ask your coach a new question", "/ask" %>

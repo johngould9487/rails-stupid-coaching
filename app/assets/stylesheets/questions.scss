@@ -1,0 +1,49 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.dialogue {
+  padding: 8px;
+  margin: 0 16px 8px 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #2C7BB2;
+}
+
+.coach {
+  background-color: #FFFEE4;
+}
+
+.user {
+  font-style: italic;
+}
+
+.dialogue h3, .dialogue p {
+  margin: 0 0 8px 0;
+}
+
+.question, .answer {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  // height: 50px;
+}
+
+.question {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-right: none;
+  margin-right: 0;
+}
+
+.answer {
+  background-color: #2C7BB2;
+  color: white;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-left: none;
+  margin-left: 0;
+}
